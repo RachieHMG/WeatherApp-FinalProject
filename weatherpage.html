@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="src/pagestyle.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-wrap">
+        <div class="weather-app">
+          <form id="search-form">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Search for a particular place"
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-secondary w-100"
+                />
+              </div>
+            </div>
+          </form>
+          <div class="overview">
+            <h1 id="cityHeader"></h1>
+            <ul>
+              <li>Last updated: <span id="timeHeader"></span></li>
+              <li id="weatherDesc"></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="clearfix weather-temperature">
+                <img src="#" alt="Weather icon" id="weatherIcon" />
+                <strong id="tempHeader"></strong>
+                <small class="units"
+                  ><a href="#" id="celsius-link" class="active">℃</a> |
+                  <a href="#" id="fahrenheit-link" class="inactive">℉</a></small
+                >
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+                <li>Humidity: <span id="humidHeader"></span>%</li>
+                <li>Wind: <span id="windHeader"></span> km/h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <small
+          ><a
+            href="https://github.com/RachieHMG/Weather_APP.git"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Rachael Hegarty</small
+        >
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
