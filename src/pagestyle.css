@@ -1,5 +1,5 @@
 h1 {
-  color: rgb(4, 122, 77);
+  color: rgb(4, 122, 20);
   font-size: 40px;
   font-weight: 500;
   line-height: 26px;
@@ -85,7 +85,9 @@ ul {
 }
 .units {
   font-size: 15px;
+  font-weight: 400;
 }
+
 .break {
   font-size: 15px;
 }
@@ -99,9 +101,9 @@ ul {
   font-size: 60px;
   font-weight: 300;
   line-height: 1;
-  padding-top: 10px;
   padding: 5px;
 }
+
 .open {
   font-weight: 600;
   color: rgb(5, 153, 96);
