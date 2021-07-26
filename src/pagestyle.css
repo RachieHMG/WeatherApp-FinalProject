@@ -4,13 +4,8 @@ h1 {
   font-weight: 500;
   line-height: 26px;
   padding-left: 20px;
+  padding-bottom: 2px;
   text-transform: uppercase;
-}
-.local {
-  display: block;
-  margin: 0 auto;
-  width: 40px;
-  padding: 0 auto;
 }
 .d-flex {
   padding: 10px;
@@ -28,7 +23,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-.weather-app {
+.weather-app-wrapper {
   border: 1px solid rgb(5, 153, 96);
   padding: 15px;
   margin: 15px;
@@ -42,7 +37,7 @@ ul {
 }
 
 .infoTop {
-  color: rgb(36, 84, 187);
+  color: rgb(40, 94, 209);
   padding-left: 20px;
   text-transform: uppercase;
   font-size: 25px;
@@ -55,17 +50,7 @@ ul {
   font-weight: 500;
   text-transform: uppercase;
 }
-.temperature {
-  font-size: 60px;
-  font-weight: 500;
-  line-height: 1;
-}
-.rain {
-  width: 100px;
-  padding-left: 10px;
-  margin-left: 25px;
-}
-.wicon {
+.icon {
   width: 75px;
   text-align: center;
 }
@@ -104,13 +89,16 @@ ul {
 .break {
   font-size: 15px;
 }
+.btn-success {
+  margin-left: 10px;
+}
 .btn-primary {
   margin-left: 10px;
 }
-
-.tempCss {
-  font-size: 50px;
+.float-left {
+  font-size: 60px;
   font-weight: 300;
+  line-height: 1;
 }
 .open {
   font-weight: 600;
